@@ -49,6 +49,17 @@ choco install commandtaskrunner -y --allow-empty-checksums
 
 :: ------------------------ TOOLS ----------------------------------
 choco install visualstudiocode -y
+:: code extensions
+code --install-extension vscode-icons
+code --install-extension ms-vscode.csharp
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension Ionide.Ionide-FAKE
+code --install-extension Ionide.Ionide-fsharp
+code --install-extension Ionide.Ionide-Paket
+code --install-extension dbaeumer.jshint
+code --install-extension ms-vscode.PowerShell
+
+
 choco install notepadplusplus.install -y
 git config --global core.editor \
     "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
