@@ -73,7 +73,7 @@ cinst procexp -y
 cinst procmon -y
 
 #-------------------------- comunication
-cinst slack
+cinst slack -y
 
 # ------------------------ Project templating ---------------------
 
