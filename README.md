@@ -21,7 +21,7 @@ This will install the latest version of Chocolatey, which is required for the fo
 
 ### 2 - Install Applications and Tools
 
-Download the following script and and save it somewhere as `bootstrap.cmd`.
+Download the following script and and save it somewhere as `cleaninstall.ps1`.
 
 ``` 
 insert git url here
@@ -30,7 +30,7 @@ insert git url here
 Open a **new command line shell as Administrator** and navigate to the folder where you saved the command file. Run it by typing:
 
 ```
-> bootstrap
+> powershell ./cleaninstall.ps1
 ```
 
 Alternatively you can clone this repo and run the command from there (but you will need GIT already installed). 
@@ -64,11 +64,13 @@ The script performs the following steps:
 | Action    | Program | Optional | Notes| URL |
 | -------   | ------- | ---- | --- | --- |
 | Install   | *Chocolatey* | | will allow the installation of other applications | [Cholocatey Home](https://chocolatey.org/)  | 
-| Install   | *Chocolatey GUI* | yes | UI for Chocolatey item management | [Cholocatey Home](https://chocolatey.org/)  | 
 | Install   | *Powershell* | | get most recent version (5+) |  |
+| Install   | *cUrl* | | make http requests from the command line | [cUrl Home](https://curl.haxx.se/)  |
 | Install   | *NodeJs* | | 6+ ; include NPM | [NodeJs home](https://nodejs.org/en/) |
 | Install   | *Gulp-Cli* | | Js-based task manager - make it available in the command line (global dependency) |  |
 | Install   | *Yarn* | | Facebook's NPM-compatible package manager - make it available in the command line (global dependency) | [Yarn site](https://yarnpkg.com/) |
+| Install   | *electron* | | js desktop app dev platform | [electron site](https://electron.io/) |
+| Install   | *Yeoman* | | project templating engine | [site](http://yeoman.io/) |
 | Install   | *Git* | | for source control | [git home](https://git-scm.com/)  |
 | Install   | *Git LFS* | | Large File Support for Git | [bitbucket GIT sLFS](https://confluence.atlassian.com/bitbucket/use-git-lfs-with-bitbucket-828781636.html) |
 | Install   | *UnGit* | yes | git repo browser and ui | [ungit @ github](https://github.com/FredrikNoren/ungit)  |
@@ -82,10 +84,10 @@ The script performs the following steps:
 | Install   | *Notepad++ as Git Editor* | yes | Useful for editing git messages instead of Vim :) |  |
 | Install   | *ConEmu* | yes | multi-shell app | [ConEmu](https://conemu.github.io/)  |
 | Install   | *7-zip* | | zip file visualizer | [7-Zip Home](http://www.7-zip.org/)  |
-| Install   | *cUrl* | | make http requests from the command line | [cUrl Home](https://curl.haxx.se/)  |
+| Install   | *Fiddler 4* | | web request tracer | [Fiddler Home](http://www.telerik.com/fiddler))  |
 | Install   | *Process Explorer* | | dll and handle explorer. usefull for unlocking files | [app site](https://technet.microsoft.com/en-us/sysinternals/bb896653.aspx) |
 | Install   | *Process Monitor* | | process / thread monitor | [app site](http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx) |
-| Install   | *Yeoman* | | project templating engine | [site](http://yeoman.io/) |
+| Install   | *slack* | | comunication tool | [app site](https://slack.com/) |
 
 
 ## Other Useful manual configurations
