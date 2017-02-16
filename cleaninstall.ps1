@@ -57,6 +57,8 @@ code --install-extension Ionide.Ionide-fsharp
 code --install-extension Ionide.Ionide-Paket
 code --install-extension dbaeumer.jshint
 code --install-extension ms-vscode.PowerShell
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension msjsdiag.debugger-for-chrome
 
 
 cinst notepadplusplus.install -y
@@ -71,6 +73,9 @@ cinst fiddler4 -y
 #windows tools
 cinst procexp -y
 cinst procmon -y
+
+#web tools
+cinst docker -y
 
 #-------------------------- comunication
 cinst slack -y
