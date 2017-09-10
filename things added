@@ -1,0 +1,14 @@
+vscode python extension
+vscode "python for vscode" extension
+mingw c compiler
+python
+http://landinghub.visualstudio.com/visual-cpp-build-tools (install c++ build tools 2015 to compile- pip install scikit-neuralnetwork - )
+pip install tensorflow-gpu
+pip install tensorflow
+pip install pylint
+pip install numpy==1.12.0
+https://repo.continuum.io/archive/Anaconda3-4.4.0-Windows-x86_64.exe
+pip install git+https://github.com/scipy/scipy.git (since regular install fails)
+
+https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64.msi (2.7.3)
+pip install image
